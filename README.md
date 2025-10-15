@@ -65,21 +65,20 @@ The entire system is containerized via Docker Compose for seamless deployment on
 ### 5. Implementation Details
 ##### a. Backend Stack
 
-i. FastAPI for RESTful service architecture and request handling.
-ii. LangChain for orchestrating retrieval and generation components.
-iii. SentenceTransformers for efficient embedding generation.
-iv. ChromaDB for local vector storage and similarity search.
-v. SQLite (optional) for document metadata storage.
+###### i. FastAPI for RESTful service architecture and request handling.
+###### ii. LangChain for orchestrating retrieval and generation components.
+###### iii. SentenceTransformers for efficient embedding generation.
+###### iv. ChromaDB for local vector storage and similarity search.
+###### v. SQLite (optional) for document metadata storage.
 
 ##### b. Deployment
-i. Dockerfile defines containerized environment for FastAPI app.
-ii. docker-compose.yml manages vector database and backend services.
-iii. Supports deployment on AWS, GCP, or local Docker environments.
+###### i. Dockerfile defines containerized environment for FastAPI app.
+###### ii. docker-compose.yml manages vector database and backend services.
+###### iii. Supports deployment on AWS, GCP, or local Docker environments.
 
 ##### c. Testing
-i. Unit tests ensure reliability of key modules (processing and vectorstore).
-
-ii. Integration tests validate document ingestion, embedding, and retrieval pipeline.
+###### i. Unit tests ensure reliability of key modules (processing and vectorstore).
+###### ii. Integration tests validate document ingestion, embedding, and retrieval pipeline.
 
 ### 6. Evaluation Metrics
 
